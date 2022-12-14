@@ -1,26 +1,43 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
 
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-image: url(./assets/fondo2.jpg);
 }
 
-h1{font-size: 3.5em;}
-h2{font-size: 2.7em;}
-h3{font-size: 2em;}
-p{font-size: 1.25em;}
-ul{list-style: none;}
-li{font-size: 1.25em;}
+h1 {
+    font-size: 3.5em;
+}
 
-button{
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+button {
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 30px;
@@ -31,21 +48,21 @@ button{
     background-color: blueviolet;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(58, 19, 95);
 }
 
-a{
+a {
     text-decoration: none;
     color: blueviolet;
 }
 
-.container{
+.container {
     max-height: 1400px;
     margin: auto;
 }
 
-header{
+header {
     display: flex;
     min-height: 70px;
     background-color: pink;
@@ -55,7 +72,7 @@ header{
 
 }
 
-.logo{
+.logo {
     margin: 0;
     padding: 10px 20px;
     font-weight: bold;
@@ -63,25 +80,27 @@ header{
     display: flex;
     align-items: center;
 }
-.logo img{
+
+.logo img {
 
     height: 60px;
     margin-right: 15px;
 
 }
 
-nav a{
+nav a {
 
     font-weight: 600;
     padding-right: 5px 10px;
-    
-    
+
+
 }
+
 nav a:hover {
     color: black
 }
 
-#hero{
+#hero {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,26 +117,25 @@ nav a:hover {
 
 
 
-#somos-topnails{
+#somos-topnails {}
 
-}
-
-#somos-topnails.container{
+#somos-topnails.container {
     text-align: center;
     padding: 200px 12px;
 }
 
-.color-acento {color: blueviolet;
+.color-acento {
+    color: blueviolet;
 
 }
 
-#nuestros-productos{
+#nuestros-productos {
     background-color: rgb(230, 156, 230);
     color: black;
     text-align: center;
 }
 
-#nuestros-productos h2{
+#nuestros-productos h2 {
     margin-top: 0;
     font-size: 3.2em;
 }
@@ -127,12 +145,12 @@ nav a:hover {
 
 }
 
-#nuestros-productos p{
+#nuestros-productos p {
     display: none;
 
 }
 
-#nuestros-productos .naipe{
+#nuestros-productos .naipe {
     background-position: center center;
     background-size: cover;
     padding: 50px;
@@ -142,23 +160,24 @@ nav a:hover {
 
 }
 
-.naipe:first-child{
-    background-image:url(/assets/kit.jpg);
+.naipe:first-child {
+    background-image: url(/assets/kit.jpg);
 
 }
 
-.naipe:nth-child(2){
+.naipe:nth-child(2) {
 
     background-image: url(/assets/Cajas-sorpresas-702x459.jpg);
 
 }
-.naipe:nth-child(3){
+
+.naipe:nth-child(3) {
 
     background: url(/assets/taller.jpg);
 
 }
 
-#adicionales{
+#adicionales {
     padding: 40px 12px;
 
 }
@@ -166,23 +185,23 @@ nav a:hover {
 #adicinales .container {
     text-align: center;
     padding: 200px 12px;
-    
- 
+
+
 
 }
 
-#adicionales li{
+#adicionales li {
     text-align: center;
-    margin: 16px 0px; 
+    margin: 16px 0px;
     font-weight: bold;
     text-decoration: underline;
-    
-    
+
+
 }
 
-.form-registro{
+.form-registro {
 
-    width:400px ;
+    width: 400px;
     background-color: rgb(193, 170, 214);
     padding: 30px;
     margin: auto;
@@ -192,13 +211,14 @@ nav a:hover {
     color: white;
     box-shadow: 7px 13px 37px #000;
 }
-.form-registro h4{
+
+.form-registro h4 {
     font-size: 22px;
     margin-bottom: 20px;
 
 }
 
-.controles{
+.controles {
     width: 100%;
     background: white;
     padding: 10px;
@@ -209,7 +229,7 @@ nav a:hover {
     font-size: 18px;
 }
 
-.form-registro p{
+.form-registro p {
     height: 40px;
     text-align: center;
     font-size: 18px;
@@ -217,44 +237,45 @@ nav a:hover {
 
 }
 
-.form-registro a{
+.form-registro a {
     color: white;
     text-decoration: none;
 
 }
 
-.form-registro a:hover{
+.form-registro a:hover {
     color: white;
     text-decoration: underline;
-    
+
 }
 
 .form-registro .botons {
-width: 100%;
-background: blue;
-border: none;
-padding: 12px;
-color: white;
-margin: 16px 0;
-font-size: 16px;
+    width: 100%;
+    background: blue;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
 
 }
 
 
 
 
-.logo-redes{
+.logo-redes {
     width: 50px;
     height: 50px;
 }
 
 
 
-@media (max-width:700px){
-    header{
+@media (max-width:700px) {
+    header {
         flex-direction: column;
     }
-    nav{
+
+    nav {
         padding: 10px 0px;
     }
 }
