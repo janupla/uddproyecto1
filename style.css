@@ -108,11 +108,16 @@ nav a:hover {
     flex-direction: column;
     height: 90vh;
     color: whitesmoke;
-    background-image: url(/assets/hands.jpg);
+    background-image: url(assets/hands.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
 }
 
 
@@ -161,19 +166,19 @@ nav a:hover {
 }
 
 .naipe:first-child {
-    background-image: url(/assets/kit.jpg);
+    background-image: url(assets/kit.jpg);
 
 }
 
 .naipe:nth-child(2) {
 
-    background-image: url(/assets/Cajas-sorpresas-702x459.jpg);
+    background-image: url(assets/Cajas-sorpresas-702x459.jpg);
 
 }
 
 .naipe:nth-child(3) {
 
-    background: url(/assets/taller.jpg);
+    background: url(assets/taller.jpg);
 
 }
 
@@ -195,6 +200,7 @@ nav a:hover {
     margin: 16px 0px;
     font-weight: bold;
     text-decoration: underline;
+    
 
 
 }
@@ -260,7 +266,58 @@ nav a:hover {
 
 }
 
+.form-login{
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid  blue;
+    color: white;
+}
 
+.form-login h4{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+
+}
+
+.boton-login{
+    width: 30%;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+ .buttons{
+    width: 20%;
+    height: 40px;
+    background: blue;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+ }
+
+ .form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+ }
+ .form-login a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+ }
+ .form-login a:hover{
+    text-decoration: underline;
+ }
 
 
 .logo-redes {
