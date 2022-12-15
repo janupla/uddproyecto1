@@ -10,7 +10,7 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-image: url(./assets/fondo2.jpg);
+    background-image: url(assets/fondo2.jpg);
 }
 
 h1 {
@@ -100,7 +100,7 @@ nav a:hover {
     color: black
 }
 
-#hero {
+#jumbotron {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,9 +115,9 @@ nav a:hover {
 
 }
 
-.contenedor{
+.contenedor {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -200,7 +200,7 @@ nav a:hover {
     margin: 16px 0px;
     font-weight: bold;
     text-decoration: underline;
-    
+
 
 
 }
@@ -266,18 +266,18 @@ nav a:hover {
 
 }
 
-.form-login{
+.form-login {
     width: 400px;
     height: 340px;
     margin: auto;
     margin-top: 180px;
     box-shadow: 7px 13px 37px #000;
     padding: 20px 30px;
-    border-top: 4px solid  blue;
+    border-top: 4px solid blue;
     color: white;
 }
 
-.form-login h4{
+.form-login h4 {
     margin: 0;
     text-align: center;
     height: 40px;
@@ -287,7 +287,7 @@ nav a:hover {
 
 }
 
-.boton-login{
+.boton-login {
     width: 30%;
     border: 1px solid gray;
     margin-bottom: 15px;
@@ -296,33 +296,37 @@ nav a:hover {
     font-size: 14px;
     font-weight: bold;
 }
- .buttons{
+
+.buttons {
     width: 20%;
     height: 40px;
     background: blue;
     border: none;
     color: white;
     margin-bottom: 16px;
- }
+}
 
- .form-login p{
+.form-login p {
     height: 40px;
     text-align: center;
     border-bottom: 1px solid;
- }
- .form-login a{
+}
+
+.form-login a {
     color: white;
     text-decoration: none;
     font-size: 14px;
- }
- .form-login a:hover{
+}
+
+.form-login a:hover {
     text-decoration: underline;
- }
+}
 
 
 .logo-redes {
     width: 50px;
     height: 50px;
+    float: right;
 }
 
 
